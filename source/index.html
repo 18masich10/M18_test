@@ -1,12 +1,232 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="page" lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Проба пера</title>
+  <title>FixРемонт. Фирма по ремонту квартир в типовых домах</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-  <h1>Проба пера</h1>
+<body class="page__body">
+  <!-- header -->
+  <header class="page-header header">
+    <h1 class="visually-hidden">FixРемонт. Фирма по ремонту квартир в типовых домах</h1>
+    <!-- header navigation -->
+    <nav class="header__navigation">
+      <!-- header logo -->
+      <div class="header__logo logo">
+        <img class="logo__img" src="#" alt="Логотип фирмы FixРемонт">
+      </div>
+      <!-- header link to # -->
+      <a class="header__contacts" href="#">Контакты</a>
+    </nav>
+  </header>
+  <!-- header end -->
+
+  <!-- main -->
+  <main class="page-main">
+    <!-- section intro -->
+    <section class="intro">
+      <!-- intro inner -->
+      <div class="intro__inner">
+        <h2 class="intro__title">Ремонт квартир в типовых домах</h2>
+
+        <p class="intro__description">Готовый дизайн-проект, работы и материалы за 3 месяца от 610 т.р.</p>
+
+        <!-- intro link to # -->
+        <button class="intro__button button">Узнайте о запуске первым</button>
+        <span class="intro__button-remark">Старт весной 2016</span>
+
+        <!-- intro link to # -->
+        <a class="intro__link" href="#">Листайте вниз, чтобы ничего не упустить</a>
+      </div>
+      <!-- intro video -->
+      <div class="intro__video video">
+        <img class="video__preview" src="#" alt="Стоп кадр из видео-сюжета о ремонте квартир">
+      </div>
+    </section>
+    <!-- section intro end -->
+
+    <!-- section features -->
+    <section class="features">
+      <!-- features wrapper -->
+      <div class="features__wrapper container">
+        <h2 class="visually-hidden">Наши преимущества</h2>
+        <p class="features__slogan">FIX Ремонт — это легко</p>
+        <p class="features__description caption">Готовые проекты, проверенные материалы и умелые руки</p>
+
+        <!-- features list -->
+        <ul class="features__list">
+          <!-- features litem -->
+          <li class="features__item">
+            <h3 class="features__subtitle">Опытная команда</h3>
+            <p class="features__text">Команда проектировщиков и строителей со стажем работы более 6 лет</p>
+          </li>
+          <!-- features litem -->
+          <li class="features__item">
+            <h3 class="features__subtitle">Типовые дизайн-проекты</h3>
+            <p class="features__text">Три стиля чистовой отделки «под ключ» и спектр дополнительных услуг</p>
+          </li>
+          <!-- features litem -->
+          <li class="features__item">
+            <h3 class="features__subtitle">Фиксированная смета</h3>
+            <p class="features__text">Никаких дополнительных расходов во время ремонта. Расчет стоимости при заключении договора</p>
+          </li>
+          <!-- features litem -->
+          <li class="features__item">
+            <h3 class="features__subtitle">Срок работ</h3>
+            <p class="features__text features__text--time">3 месяца</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- section features -->
+
+    <!-- section projects -->
+    <section class="projects">
+      <h2 class="visually-hidden">Наши проекты</h2>
+      <p class="projects__subtitle">3 стиля интерьера</p>
+      <p class="projects__description caption">Скандинавский, классический и эко-стиль</p>
+
+      <!-- projects inner/ slider -->
+      <div class="projects__inner slider">
+        <!-- projects list/ slider list -->
+        <ul class="projects__list slider__list">
+          <!-- projects item/ slider item -->
+          <li class="projects__item slider__item">
+            <img class="projects__img" src="#" alt="Ремонт кухни в классическом стиле от FixРемонт">
+            <p class="projects__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae rerum architecto
+              labore. Harum, quaerat asperiores.</p>
+          </li>
+          <!-- projects item/ slider item -->
+          <li class="projects__item slider__item">
+            <img class="projects__img" src="#" alt="Ремонт ванной комнаты в скандинавском стиле от FixРемонт">
+            <p class="projects__text">Кафельная плитка в ванной комнате в скандинавском стиле</p>
+          </li>
+          <!-- projects item/ slider item -->
+          <li class="projects__item slider__item">
+            <img class="projects__img" src="#" alt="Ремонт гостинной зоны в классическом стиле от FixРемонт">
+            <p class="projects__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias rem ducimus
+              suscipit accusamus rerum hic officia repellat nobis repudiandae est.</p>
+          </li>
+        </ul>
+        <!-- projects buttons/ slider controls -->
+        <div class="projects__buttons slider__controls">
+          <!-- projects button/ slider control -->
+          <button class="projects__button slider__control" type="button">
+            <span>Предыдущий слайд</span>
+          </button>
+          <!-- projects button/ slider control -->
+          <button class="projects__button slider__control" type="button">
+            <span>Следующий слайд</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- section projects end -->
+
+    <!-- section subscription -->
+    <section class="subscription">
+      <!-- subscription wrapper -->
+      <div class="subscription__wrapper container">
+        <h2 class="visually-hidden">Подписка на уведомления</h2>
+        <p class="subscription__slogan">Узнайте о запуске сервиса первым</p>
+        <p class="subscription__slogan-remark">Первым 10 клиентам стальная входная дверь в подарок</p>
+
+        <!-- subscription form/ form -->
+        <form class="subscription__form form" action="#" method="post">
+          <!-- form input -->
+          <p class="form__input">
+            <label class="visually-hidden" for="name">Введите Ваше имя и фамилию:</label>
+            <input id="name" type="text" placeholder="Имя и фамилия*" required>
+          </p>
+          <!-- form input -->
+          <p class="form__input">
+            <label class="visually-hidden" for="email">Введите Ваш email адрес:</label>
+            <input id="email" type="text" placeholder="Е-mail адрес*" required>
+          </p>
+          <!-- form input -->
+          <p class="form__input">
+            <label class="visually-hidden" for="tel">Введите Ваш номер телефона:</label>
+            <input id="tel" type="tel" placeholder="Телефон">
+          </p>
+
+          <!-- form button -->
+          <button class="form__button button">Подписаться</button>
+
+          <!-- form remark -->
+          <span class="form__input-remark">* Обязательные для заполнения поля</span>
+          <a class="form__link" href="#">Политика конфиденциальности</a>
+
+        </form>
+      </div>
+    </section>
+    <!-- section subscription end -->
+
+    <!-- section contacts -->
+    <section class="contacts">
+      <!-- contacts wrapper -->
+      <div class="contacts__wrapper container">
+        <h2 class="visually-hidden">Наши контакты</h2>
+        <!-- contacts social -->
+        <div class="social">
+          <h3 class="visually-hidden">Мы в социальных сетях</h3>
+          <!-- social list -->
+          <ul class="social__list">
+            <!-- social item -->
+            <li class="social__item social__item--fb">
+              <a class="social__link" href="#">
+                <span class="visually-hidden">Мы в facebook</span>
+              </a>
+            </li>
+            <!-- social item -->
+            <li class="social__item social__item--vk">
+              <a class="social__link" href="#">
+                <span class="visually-hidden">Мы в vk</span>
+              </a>
+            </li>
+            <!-- social item -->
+            <li class="social__item social__item--ins">
+              <a class="social__link" href="#">
+                <span class="visually-hidden">Мы в Instagram</span>
+              </a>
+            </li>
+          </ul>
+
+          <p class="social__slogan">Следите за нашим развитием</p>
+          <p class="social__slogan-remark">Подпишитесь на наши аккаунты в соц. сетях, знакомьтесь с нашими проектами и тем, что
+            нас вдохновляет</p>
+        </div>
+        <!-- contacts address -->
+        <div class="address">
+          <h3 class="visually-hidden">Наш адрес</h3>
+          <!-- address list -->
+          <ul class="address__list">
+            <!-- address item -->
+            <li class="address__item address__item--tel">
+              <a class="address__tel" href="tel:78129035445">+7 (812) 903-54-45</a>
+            </li>
+            <!-- address item -->
+            <li class="address__item">
+              <span class="address__location address__location--street">Ул. Галерная, д 55,</span>
+              <span class="address__location address__location--city">Санкт-Петербург</span>
+            </li>
+            <!-- address item -->
+            <li class="address__item address__item--email">
+              <a class="address__email" href="malto:9035445@gmail.com">9035445@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- section contacts end -->
+  </main>
+  <!-- main end -->
+
+  <!-- footer -->
+  <footer class="page-footer footer">
+    <p class="footer__copyright">© FIX Ремонт, 2016</p>
+  </footer>
+  <!-- footer end -->
 </body>
 </html>
