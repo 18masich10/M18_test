@@ -1,0 +1,16 @@
+# Cписок файлов и папок для скрытия от системы контроля версий Git
+
+.DS_Store
+.idea
+.vscode
+*.ai
+*.log
+*.pdf
+*.psd
+*.sublime*
+build
+node_modules/
+npm-debug.*
+source/css/*.css
+source/css/*.map
+Thumbs.db
