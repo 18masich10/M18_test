@@ -15,10 +15,10 @@
     <nav class="header__navigation">
       <!-- header logo -->
       <div class="header__logo logo">
-        <img class="logo__img" src="#" alt="Логотип фирмы FixРемонт">
+        <img class="logo__img" src="images/logo.svg" width="200" height="55" alt="Логотип фирмы FixРемонт">
       </div>
       <!-- header link to # -->
-      <a class="header__contacts" href="#">Контакты</a>
+      <a class="header__contacts" href="#contacts">Контакты</a>
     </nav>
   </header>
   <!-- header end -->
@@ -33,22 +33,24 @@
 
         <p class="intro__description">Готовый дизайн-проект, работы и материалы за 3 месяца от 610 т.р.</p>
 
-        <!-- intro link to # -->
-        <button class="intro__button button">Узнайте о запуске первым</button>
+        <!-- intro link to #form -->
+        <a class="intro__button button" href="#form">Узнайте о запуске первым</a>
         <span class="intro__button-remark">Старт весной 2016</span>
 
-        <!-- intro link to # -->
-        <a class="intro__link" href="#">Листайте вниз, чтобы ничего не упустить</a>
+        <!-- intro link to #features -->
+        <a class="intro__link" href="#features">Листайте вниз, чтобы ничего не упустить</a>
       </div>
       <!-- intro video -->
       <div class="intro__video video">
-        <img class="video__preview" src="#" alt="Стоп кадр из видео-сюжета о ремонте квартир">
+        <img class="video__preview" src="images/intro/intro_img.jpg" width="940" height="920" alt="Стоп кадр из видео-сюжета о ремонте квартир">
+
+        <span class="video__play-remark">Смотреть видео</span>
       </div>
     </section>
     <!-- section intro end -->
 
     <!-- section features -->
-    <section class="features">
+    <section id="features" class="features">
       <!-- features wrapper -->
       <div class="features__wrapper container">
         <h2 class="visually-hidden">Наши преимущества</h2>
@@ -94,18 +96,18 @@
         <ul class="projects__list slider__list">
           <!-- projects item/ slider item -->
           <li class="projects__item slider__item">
-            <img class="projects__img" src="#" alt="Ремонт кухни в классическом стиле от FixРемонт">
+            <img class="projects__img" src="images/project/project_img-1.jpg" width="282" height="500" alt="Ремонт кухни в классическом стиле от FixРемонт">
             <p class="projects__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae rerum architecto
               labore. Harum, quaerat asperiores.</p>
           </li>
           <!-- projects item/ slider item -->
           <li class="projects__item slider__item">
-            <img class="projects__img" src="#" alt="Ремонт ванной комнаты в скандинавском стиле от FixРемонт">
+            <img class="projects__img" src="images/project/project_img-2.jpg" width="751" height="500" alt="Ремонт ванной комнаты в скандинавском стиле от FixРемонт">
             <p class="projects__text">Кафельная плитка в ванной комнате в скандинавском стиле</p>
           </li>
           <!-- projects item/ slider item -->
           <li class="projects__item slider__item">
-            <img class="projects__img" src="#" alt="Ремонт гостинной зоны в классическом стиле от FixРемонт">
+            <img class="projects__img" src="images/project/project_img-3.jpg" width="450" height="500" alt="Ремонт гостинной зоны в классическом стиле от FixРемонт">
             <p class="projects__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias rem ducimus
               suscipit accusamus rerum hic officia repellat nobis repudiandae est.</p>
           </li>
@@ -126,7 +128,7 @@
     <!-- section projects end -->
 
     <!-- section subscription -->
-    <section class="subscription">
+    <section id="form" class="subscription">
       <!-- subscription wrapper -->
       <div class="subscription__wrapper container">
         <h2 class="visually-hidden">Подписка на уведомления</h2>
@@ -164,7 +166,7 @@
     <!-- section subscription end -->
 
     <!-- section contacts -->
-    <section class="contacts">
+    <section id="contacts" class="contacts">
       <!-- contacts wrapper -->
       <div class="contacts__wrapper container">
         <h2 class="visually-hidden">Наши контакты</h2>
@@ -228,5 +230,14 @@
     <p class="footer__copyright">© FIX Ремонт, 2016</p>
   </footer>
   <!-- footer end -->
+
+  <!-- modal -->
+  <div class="modal">
+    <h2 class="visually-hidden">Заявка на уведомление</h2>
+    <p class="modal__slogan">Узнайте о запуске сервиса первым</p>
+
+    <span class="modal__feedback">Спасибо! Мы будем держать вас в курсе обновлений</span>
+  </div>
+  <!-- modal end -->
 </body>
 </html>
